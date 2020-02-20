@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.4">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>FFFF80</corfondo>
+        <corbanda>80FF80</corbanda>
+        <cornavega>FF8040</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Actividades Variadas Para Niños</titulo>
+        <subtitulo>Para Niños que saben leer </subtitulo>
+        <logo>Logo.jpg</logo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="Efecto_de_sonido_respuesta_correcta.mp3" modo="1" >Bien hecho!!</correcto>
+        <incorrecto son="Efecto_de_sonido_-_Error.mp3" modo="1" >Sigue Intentando</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>2</tipo>
+              <cabeceira>Inicio</cabeceira>
+              <imaxe posx="383" posy="252">Imag1.jpg</imaxe>
+              <texto posx="44" posy="11" ancho="200" largo="200"><![CDATA[
+<p align="left">
+<font color="#000000" face="Arial" size="12"><br>
+</font></p>
+<p align="center">
+<font color="#080000" face="Arial" size="32">Este es un libro Interactivo <br>
+</font><font color="#080000" face="Arial" size="28">En la siguiente página se le brindará información de las juegos a actividades.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</font></p>
+]]></texto>
+              <cfondo>FF8080</cfondo>
+              <ctexto>80FF00</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="2" >
+              <tipo>2</tipo>
+              <imaxe posx="68" posy="123">Acti1.jpg</imaxe>
+              <texto posx="508" posy="21" ancho="592" largo="378"><![CDATA[
+<p align="left">
+<font color="#080000" face="Berlin" size="54">Índice<br>
+3.Parejas<br>
+4.Rompecabezas<br>
+5.Palabra Secreta<br>
+6.Repetir los Cuadros<br>
+7.Suma<br>
+<br>
+<br>
+<br>
+</font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="3" >
+              <tipo>17</tipo>
+              <cabeceira>Encontrar las Parejas</cabeceira>
+              <parellas>Pare1.jpg</parellas>
+              <parellas>Pare3.jpg</parellas>
+              <parellas>Pare4.png</parellas>
+              <parellas>Pare5.jpg</parellas>
+              <parellas>Pare6.jpg</parellas>
+              <parellas>Pare7.jpg</parellas>
+              <cfondo>FFFF80</cfondo>
+              <ctapa>000000</ctapa>
+              <tempo>120</tempo>
+        </paxina>
+        <paxina id="4" >
+              <tipo>3</tipo>
+              <cabeceira>Rompecabezas</cabeceira>
+              <imaxe>A2.jpg</imaxe>
+              <son>M1.mp3</son>
+              <filas>3</filas>
+              <columnas>3</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+        <paxina id="5" >
+              <tipo>19</tipo>
+              <cabeceira>Palabra Secreta</cabeceira>
+              <imaxe>PalabarS.png</imaxe>
+              <texto><![CDATA[Choco entre dos paredes
+
+late mi corazón.
+
+Quien no sepa mi nombre
+
+es un cabezón.]]></texto>
+              <resp texto="">Chocolate</resp>
+              <modo>1</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="6" >
+              <tipo>36</tipo>
+              <cabeceira>Repretir los Cuadros que se le presentan a continuación</cabeceira>
+              <forma>0</forma>
+              <modo>1</modo>
+              <etiqueta>80000008</etiqueta>
+              <etiqueta>04040408</etiqueta>
+              <etiqueta>80404080</etiqueta>
+              <etiqueta>00000208</etiqueta>
+              <etiqueta>00100200</etiqueta>
+              <etiqueta>01100200</etiqueta>
+              <etiqueta>11000220</etiqueta>
+        </paxina>
+        <paxina id="7" >
+              <tipo>33</tipo>
+              <cabeceira>Realizar la Siguiente Suma</cabeceira>
+              <modo>2</modo>
+              <forma>4</forma>
+              <numero>2</numero>
+              <numero>2</numero>
+        </paxina>
+        <paxina id="8" >
+              <tipo>8</tipo>
+              <cabeceira>Adivina!!!!!!!!!</cabeceira>
+              <frase texto="" son="Audio2.mp3">Blanco</frase>
+              <frase texto="" son="Audio3.mp3">Aguacate</frase>
+        </paxina>
+    </libro>
+</lim>
